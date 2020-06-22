@@ -35,5 +35,5 @@ lambda x: x if x<=1 else fib(x-1) + fib(x-2)
 
 ### starting a http server
 ```python
-python3 -m http.server 9999
+python3 -m http.server 8000
 ```

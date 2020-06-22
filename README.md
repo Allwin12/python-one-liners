@@ -11,6 +11,7 @@ This github repo is a collection of amazing python one liners.
 * [list comprehension](#list-comprehension)
 * [set comprehension](#set-comprehension)
 * [dictionary comprehension](#dictionary-comprehension)
+* [if-else](#if-else)
 
 
 ### quick sort
@@ -68,4 +69,9 @@ num_set = { num for num in range(0,100)}
 ### dictionary comprehension
 ```python
 dict_numbers = {x:x*x for x in range(0,5) }
+```
+
+### if else
+```python
+print("even") if 4%2==0 else print("odd")
 ```

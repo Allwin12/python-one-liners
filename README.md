@@ -59,7 +59,7 @@ li = [num for num in range(0,100)]
 ```
 
 ### set comprehension
-```
+```python
 num_set = { num for num in range(0,100)}
 # this will create a set of numbers from 0 to 99
 ```

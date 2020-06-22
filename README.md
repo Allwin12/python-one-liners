@@ -5,6 +5,8 @@ This github repo is a collection of amazing python one liners.
 * swap two numbers
 * fibonacci series
 * flat list out of list of lists
+* starting a http server
+
 
 ### quick sort
 ```python
@@ -29,4 +31,9 @@ lambda x: x if x<=1 else fib(x-1) + fib(x-2)
 ### flat list out of list of lists
 ``` python
 [item for sublist in main_list for item in sublist]
+```
+
+### starting a http server
+```python
+python3 -m http.server 9999
 ```

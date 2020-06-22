@@ -2,14 +2,15 @@ This github repo is a collection of amazing python one liners.
 
 * [quick sort](#quick-sort)
 * [sum of n consecutive numbers](#sum-of-n-consecutive-numbers)
-* swap two numbers
-* fibonacci series
-* flat list out of list of lists
-* starting a http server
-* reverse a list
-* factorial of a number
-* list comprehension
-* set comprehension
+* [swap two numbers](#swap-two-numbers)
+* [fibonacci series](#fibanocci-series)
+* [flat list out of list of lists](#flat-list-out-of-list-of-lists)
+* [starting a http server](#starting-a-http-server)
+* [reverse a list](#reverse-a-list)
+* [factorial of a number](#factorial-of-a-number)
+* [list comprehension](#list-comprehension)
+* [set comprehension](#set-comprehension)
+* [dictionary comprehension](#dictionary-comprehension)
 
 
 ### quick sort
@@ -62,4 +63,9 @@ li = [num for num in range(0,100)]
 ```python
 num_set = { num for num in range(0,100)}
 # this will create a set of numbers from 0 to 99
+```
+
+### dictionary comprehension
+```python
+dict_numbers = {x:x*x for x in range(0,5) }
 ```

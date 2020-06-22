@@ -1,6 +1,7 @@
 This github repo is a collection of amazing python one liners.
 
 * quick sort
+* sum of n consecutive numbers
 
 ### quick sort
 ```python

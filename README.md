@@ -9,6 +9,7 @@ This github repo is a collection of amazing python one liners.
 * reverse a list
 * factorial of a number
 * list comprehension
+* set comprehension
 
 
 ### quick sort
@@ -55,4 +56,10 @@ import math; fact_5 = math.factorial(5)
 ```python
 li = [num for num in range(0,100)]
 # this will create a list of numbers from 0 to 99
+```
+
+### set comprehension
+```
+num_set = { num for num in range(0,100)}
+# this will create a set of numbers from 0 to 99
 ```

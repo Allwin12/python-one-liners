@@ -8,6 +8,7 @@ This github repo is a collection of amazing python one liners.
 * starting a http server
 * reverse a list
 * factorial of a number
+* list comprehension
 
 
 ### quick sort
@@ -48,4 +49,10 @@ numbers[::-1]
 ### factorial of a number
 ```python
 import math; fact_5 = math.factorial(5)
+```
+
+### list comprehension
+```python
+li = [num for num in range(0,100)]
+# this will create a list of numbers from 0 to 99
 ```

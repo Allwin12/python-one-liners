@@ -1,6 +1,6 @@
 This github repo is a collection of amazing python one liners.
 
-* [quick sort](quick sort)
+* [quick sort](#quick sort)
 * sum of n consecutive numbers
 * swap two numbers
 * fibonacci series

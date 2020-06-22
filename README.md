@@ -3,6 +3,7 @@ This github repo is a collection of amazing python one liners.
 * quick sort
 * sum of n consecutive numbers
 * swap two numbers
+* fibonacci series
 
 ### quick sort
 ```python
@@ -17,5 +18,10 @@ sum(range(0, n+1)
 ### swap two values
 ```python
 a,b = b,a
+```
+
+### fibonacci series
+```python
+lambda x: x if x<=1 else fib(x-1) + fib(x-2)
 ```
 

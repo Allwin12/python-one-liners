@@ -7,6 +7,7 @@ This github repo is a collection of amazing python one liners.
 * flat list out of list of lists
 * starting a http server
 * reverse a list
+* factorial of a number
 
 
 ### quick sort
@@ -42,4 +43,9 @@ python3 -m http.server 8000
 ### reverse a list
 ```python
 numbers[::-1]
+```
+
+### factorial of a number
+```python
+import math; fact_5 = math.factorial(5)
 ```

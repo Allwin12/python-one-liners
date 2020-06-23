@@ -16,7 +16,8 @@ This github repo is a collection of amazing python one liners.
 * [while loop](#while-loop)
 * [write to a file using print](#write-to-a-file-using-print)
 * [count occurence of a character in a string](#count-occurence-of-a-character-in-a-string)
-* [merge two list](#merge-two-lists)
+* [merge two lists](#merge-two-lists)
+* [merge two dictionaries](#merge-two-dictionaries)
 
 
 ### quick sort
@@ -108,4 +109,11 @@ print("umbrella".count('l'))
 ```python
 list1.extend(list2)
 # contents of list 2 will be added to the list1
+```
+
+### merge two dictionaries
+```python
+dict1.update(dict2)
+contents of dictionary 2 will be added to the dictionary 1
+# 
 ```

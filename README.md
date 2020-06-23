@@ -14,6 +14,7 @@ This github repo is a collection of amazing python one liners.
 * [if-else](#if-else)
 * [check data type](#check-data-type)
 * [while loop](#while-loop)
+* [write to a file using print](#write-to-a-file-using print)
 
 
 ### quick sort
@@ -89,4 +90,9 @@ isinstance([3,4,1997], list)
 ```python
 a=5
 while a > 0: a = a - 1; print(a)
+```
+
+### write to a file using print
+```python
+print("Hello, World!", file=open('file.txt', 'w'))
 ```

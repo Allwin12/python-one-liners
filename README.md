@@ -28,6 +28,8 @@ This github repo is a collection of amazing python one liners.
 * [remove duplicate elements from a list](#remove-duplicate-elements-from-a-list)
 * [sort list in ascending order](#sort-list-in-ascending-order)
 * [sort list in descending order](#sort-list-in-descending-order)
+* [get a string of small case alphabets](#get-a-string-of-small-case-alphabets)
+* [get a string of upper case alphabets](#get-a-string-of-upper-case-alphabets)
 
 
 ### quick sort
@@ -178,4 +180,16 @@ sorted([5, 2, 9, 1])
 ### sort list in descending order
 ```python
 sorted([5, 2, 9, 1], reverse=True)
+```
+
+### get a string of small case alphabets
+```python
+import string; print(string.ascii_lowercase)
+# abcdefghijklmnopqrstuvwxyz
+```
+
+### get a string of upper case alphabets
+```python
+import string; print(string.ascii_uppercase)
+# ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ```

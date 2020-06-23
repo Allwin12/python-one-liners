@@ -30,6 +30,7 @@ This github repo is a collection of amazing python one liners.
 * [sort list in descending order](#sort-list-in-descending-order)
 * [get a string of small case alphabets](#get-a-string-of-small-case-alphabets)
 * [get a string of upper case alphabets](#get-a-string-of-upper-case-alphabets)
+* [get a string of digits from 0 to 9](#get-a-string-of-digits-from-0-to-9)
 
 
 ### quick sort
@@ -192,4 +193,10 @@ import string; print(string.ascii_lowercase)
 ```python
 import string; print(string.ascii_uppercase)
 # ABCDEFGHIJKLMNOPQRSTUVWXYZ
+```
+
+### get a string of digits from 0 to 9
+```python
+import string; print(string.digits)
+# 0123456789
 ```

@@ -115,8 +115,7 @@ list1.extend(list2)
 ### merge two dictionaries
 ```python
 dict1.update(dict2)
-contents of dictionary 2 will be added to the dictionary 1
-# 
+# contents of dictionary 2 will be added to the dictionary 1 
 ```
 
 ### get timestamp

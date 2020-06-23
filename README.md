@@ -21,7 +21,7 @@ This github repo is a collection of amazing python one liners.
 * [get timestamp](#get-timestamp)
 * [repeat values in a list for n times](#repeat-values-in-a-list-for-n-time)
 * [generate a random number of n digits](#generate-a-random-number-of-n-digits)
-
+* [convert key value pair to dictionary](#convert-key-value-pair-to-dictionary)
 
 ### quick sort
 ```python
@@ -135,4 +135,9 @@ import itertools; print(list(itertools.repeat(10,5)))
 ```python
 from random import randint; print(''.join(["{}".format(randint(0, 9)) for num in range(0, n)]))
 # This will print 1038496714 given the value of n=10
+```
+
+### convert key value pair to dictionary
+```python
+dict(name='allwin', age=23)
 ```

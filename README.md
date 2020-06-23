@@ -14,7 +14,7 @@ This github repo is a collection of amazing python one liners.
 * [if-else](#if-else)
 * [check data type](#check-data-type)
 * [while loop](#while-loop)
-* [write to a file using print](#write-to-a-file-using print)
+* [write to a file using print](#write-to-a-file-using-print)
 
 
 ### quick sort

@@ -15,7 +15,8 @@ This github repo is a collection of amazing python one liners.
 * [check data type](#check-data-type)
 * [while loop](#while-loop)
 * [write to a file using print](#write-to-a-file-using-print)
-* [count occurence of a character in a string](count-occurence-of-a-character-in-a-string)
+* [count occurence of a character in a string](#count-occurence-of-a-character-in-a-string)
+* [merge two list](#merge-two-lists)
 
 
 ### quick sort
@@ -101,4 +102,10 @@ print("Hello, World!", file=open('file.txt', 'w'))
 ### count occurence of a character in a string
 ```python
 print("umbrella".count('l'))
+```
+
+### merge two lists
+```python
+list1.extend(list2)
+# contents of list 2 will be added to the list1
 ```

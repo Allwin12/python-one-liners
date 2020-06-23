@@ -25,6 +25,7 @@ This github repo is a collection of amazing python one liners.
 * [convert key value pair to dictionary](#convert-key-value-pair-to-dictionary)
 * [get quotient and remainder](#get-quotient-and-remainder)
 * [python zen](#python-zen)
+* [remove duplicate elements from a list](#remove-duplicate-elements-from-a-list)
 
 ### quick sort
 ```python
@@ -159,4 +160,9 @@ quotient, remainder = divmod(4,5)
 ### python zen
 ```python
 import this
+```
+
+### remove duplicate elements from a list
+```python
+list(set([4, 4, 5, 5, 6]))
 ```

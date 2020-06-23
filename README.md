@@ -31,6 +31,7 @@ This github repo is a collection of amazing python one liners.
 * [get a string of small case alphabets](#get-a-string-of-small-case-alphabets)
 * [get a string of upper case alphabets](#get-a-string-of-upper-case-alphabets)
 * [get a string of digits from 0 to 9](#get-a-string-of-digits-from-0-to-9)
+* [get individual digits from a number](#get-individual-digits-from-a-number)
 
 
 ### quick sort
@@ -199,4 +200,9 @@ import string; print(string.ascii_uppercase)
 ```python
 import string; print(string.digits)
 # 0123456789
+```
+
+### get indiviudal digits from a number
+```python
+digits = [int(digit) for digit in str(12345)]
 ```

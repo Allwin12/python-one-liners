@@ -18,10 +18,12 @@ This github repo is a collection of amazing python one liners.
 * [count occurence of a character in a string](#count-occurence-of-a-character-in-a-string)
 * [merge two lists](#merge-two-lists)
 * [merge two dictionaries](#merge-two-dictionaries)
+* [merge two sets](#merge-two-sets)
 * [get timestamp](#get-timestamp)
 * [repeat values in a list for n times](#repeat-values-in-a-list-for-n-time)
 * [generate a random number of n digits](#generate-a-random-number-of-n-digits)
 * [convert key value pair to dictionary](#convert-key-value-pair-to-dictionary)
+
 
 ### quick sort
 ```python
@@ -118,6 +120,12 @@ list1.extend(list2)
 ```python
 dict1.update(dict2)
 # contents of dictionary 2 will be added to the dictionary 1 
+```
+
+### merge two sets
+```python
+set1.update(set2)
+# contents of set2 will be copied to the set1
 ```
 
 ### get timestamp

@@ -18,6 +18,7 @@ This github repo is a collection of amazing python one liners.
 * [count occurence of a character in a string](#count-occurence-of-a-character-in-a-string)
 * [merge two lists](#merge-two-lists)
 * [merge two dictionaries](#merge-two-dictionaries)
+* [get timestamp](#get-timestamp)
 
 
 ### quick sort
@@ -116,4 +117,9 @@ list1.extend(list2)
 dict1.update(dict2)
 contents of dictionary 2 will be added to the dictionary 1
 # 
+```
+
+### get timestamp
+```python
+import time; print(time.time())
 ```

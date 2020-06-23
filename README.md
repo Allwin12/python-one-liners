@@ -15,6 +15,7 @@ This github repo is a collection of amazing python one liners.
 * [check data type](#check-data-type)
 * [while loop](#while-loop)
 * [write to a file using print](#write-to-a-file-using-print)
+* [count occurence of a character in a string](count-occurence-of-a-character-in-a-string)
 
 
 ### quick sort
@@ -95,4 +96,9 @@ while a > 0: a = a - 1; print(a)
 ### write to a file using print
 ```python
 print("Hello, World!", file=open('file.txt', 'w'))
+```
+
+### count occurence of a character in a string
+```python
+print("umbrella".count('l'))
 ```

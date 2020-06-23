@@ -24,6 +24,7 @@ This github repo is a collection of amazing python one liners.
 * [generate a random number of n digits](#generate-a-random-number-of-n-digits)
 * [convert key value pair to dictionary](#convert-key-value-pair-to-dictionary)
 * [get quotient and remainder](#get-quotient-and-remainder)
+* [python zen](#python-zen)
 
 ### quick sort
 ```python
@@ -153,4 +154,9 @@ dict(name='allwin', age=23)
 ### get quotient and remainder
 ```python
 quotient, remainder = divmod(4,5)
+```
+
+### python zen
+```python
+import this
 ```

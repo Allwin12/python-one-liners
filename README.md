@@ -26,6 +26,9 @@ This github repo is a collection of amazing python one liners.
 * [get quotient and remainder](#get-quotient-and-remainder)
 * [python zen](#python-zen)
 * [remove duplicate elements from a list](#remove-duplicate-elements-from-a-list)
+* [sort list in ascending order](#sort-list-in-ascending-order)
+* [sort list in descending order](#sort-list-in-descending-order)
+
 
 ### quick sort
 ```python
@@ -165,4 +168,14 @@ import this
 ### remove duplicate elements from a list
 ```python
 list(set([4, 4, 5, 5, 6]))
+```
+
+### sort list in ascending order
+```python
+sorted([5, 2, 9, 1])
+```
+
+### sort list in descending order
+```python
+sorted([5, 2, 9, 1], reverse=True)
 ```

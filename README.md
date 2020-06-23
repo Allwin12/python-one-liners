@@ -202,7 +202,7 @@ import string; print(string.digits)
 # 0123456789
 ```
 
-### get indiviudal digits from a number
+### get individual digits from a number
 ```python
 digits = [int(digit) for digit in str(12345)]
 ```

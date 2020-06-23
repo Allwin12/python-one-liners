@@ -19,7 +19,7 @@ This github repo is a collection of amazing python one liners.
 * [merge two lists](#merge-two-lists)
 * [merge two dictionaries](#merge-two-dictionaries)
 * [get timestamp](#get-timestamp)
-
+* [repeat values in a list for n times](#repeat-values-in-a-list-for-n-time)
 
 ### quick sort
 ```python
@@ -121,4 +121,10 @@ dict1.update(dict2)
 ### get timestamp
 ```python
 import time; print(time.time())
+```
+
+### repeat values in a list for n time
+```python
+import itertools; print(list(itertools.repeat(10,5)))
+# [10, 10, 10, 10, 10] will be printed
 ```

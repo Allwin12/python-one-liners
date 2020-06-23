@@ -13,7 +13,7 @@ This github repo is a collection of amazing python one liners.
 * [dictionary comprehension](#dictionary-comprehension)
 * [if-else](#if-else)
 * [check data type](#check-data-type)
-* [while loop](while-loop)
+* [while loop](#while-loop)
 
 
 ### quick sort

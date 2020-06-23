@@ -13,6 +13,7 @@ This github repo is a collection of amazing python one liners.
 * [dictionary comprehension](#dictionary-comprehension)
 * [if-else](#if-else)
 * [check data type](#check-data-type)
+* [while loop](while-loop)
 
 
 ### quick sort
@@ -82,4 +83,10 @@ print("even") if 4%2==0 else print("odd")
 isinstance(2, int)
 isinstance("allwin", str)
 isinstance([3,4,1997], list)
+```
+
+### while loop
+```python
+a=5
+while a > 0: a = a - 1; print(a)
 ```

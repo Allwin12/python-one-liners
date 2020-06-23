@@ -12,6 +12,7 @@ This github repo is a collection of amazing python one liners.
 * [set comprehension](#set-comprehension)
 * [dictionary comprehension](#dictionary-comprehension)
 * [if-else](#if-else)
+* [check data type](#check-data-type)
 
 
 ### quick sort
@@ -74,4 +75,11 @@ dict_numbers = {x:x*x for x in range(0,5) }
 ### if else
 ```python
 print("even") if 4%2==0 else print("odd")
+```
+
+### check data type
+```python
+isinstance(2, int)
+isinstance("allwin", str)
+isinstance([3,4,1997], list)
 ```

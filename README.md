@@ -20,6 +20,8 @@ This github repo is a collection of amazing python one liners.
 * [merge two dictionaries](#merge-two-dictionaries)
 * [get timestamp](#get-timestamp)
 * [repeat values in a list for n times](#repeat-values-in-a-list-for-n-time)
+* [generate a random number of n digits](#generate-a-random-number-of-n-digits)
+
 
 ### quick sort
 ```python
@@ -127,4 +129,10 @@ import time; print(time.time())
 ```python
 import itertools; print(list(itertools.repeat(10,5)))
 # [10, 10, 10, 10, 10] will be printed
+```
+
+### generate a random number of n digits
+```python
+from random import randint; print(''.join(["{}".format(randint(0, 9)) for num in range(0, n)]))
+# This will print 1038496714 given the value of n=10
 ```

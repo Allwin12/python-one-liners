@@ -37,6 +37,7 @@ This github repo is a collection of amazing python one liners.
 * [convert decimal to hexadecimal](#convert-deciaml-to-hexadecimal)
 * [convert a list of strings to integers](#convert-a-list-of-strings-to-integers)
 * [combine strings from a list](#combine-strings-from-a-list)
+* [get even numbers from a list](#get-even-numbers-from-a-list)
 
 
 ### quick sort
@@ -239,3 +240,8 @@ list(map(int, ['1', '2', '3']))
 # "hello world"
 ```
 
+### get even numbers from a list
+```python
+list(filter(lambda x: x%2 == 0, [1, 2, 3, 4, 5, 6] ))
+# [2, 4, 6]
+```

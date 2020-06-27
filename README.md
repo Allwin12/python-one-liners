@@ -35,6 +35,8 @@ This github repo is a collection of amazing python one liners.
 * [convert decimal to binary](#convert-decimal-to-binary)
 * [convert decimal to octal](#convert-decimal-to-octal)
 * [convert decimal to hexadecimal](#convert-deciaml-to-hexadecimal)
+* [convert a list of strings to integers](#convert-a-list-of-strings-to-integers)
+* [combine strings from a list](#combine-strings-from-a-list)
 
 
 ### quick sort
@@ -224,3 +226,16 @@ oct(24)
 ```python
 hex(24)
 ```
+
+### convert a list of strings to integers
+```python
+list(map(int, ['1', '2', '3']))
+# [1, 2, 3]
+```
+
+### combine strings from a list
+```python
+" ".join(["hello", "world"])
+# "hello world"
+```
+

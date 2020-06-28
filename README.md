@@ -38,6 +38,7 @@ This github repo is a collection of amazing python one liners.
 * [convert a list of strings to integers](#convert-a-list-of-strings-to-integers)
 * [combine strings from a list](#combine-strings-from-a-list)
 * [get even numbers from a list](#get-even-numbers-from-a-list)
+* [input a list of tuples](#input-a-list-of-tuples)
 
 
 ### quick sort
@@ -244,4 +245,15 @@ list(map(int, ['1', '2', '3']))
 ```python
 list(filter(lambda x: x%2 == 0, [1, 2, 3, 4, 5, 6] ))
 # [2, 4, 6]
+```
+
+### input a list of tuples
+```python
+list(tuple(map(int, input().split())) for r in range(int(input('enter the no of rows:'))))
+# enter the no of rows:
+# 3
+# 1 2
+# 3 4
+# 5 6
+# [(1, 2), (3, 4), (5, 6)]
 ```

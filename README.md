@@ -40,6 +40,7 @@ This github repo is a collection of amazing python one liners.
 * [get even numbers from a list](#get-even-numbers-from-a-list)
 * [input a list of tuples](#input-a-list-of-tuples)
 * [transpose matrix](#transpose-matrix)
+* [remove numbers from string](#remove-numbers-from-string)
 
 
 ### quick sort
@@ -264,4 +265,10 @@ list(tuple(map(int, input().split())) for r in range(int(input('enter the no of 
 list(list(x) for x in zip(*old_list))
 # old_list = [[1, 2, 3], [3, 4, 6], [5, 6, 7]]
 # [[1, 3, 5], [2, 4, 6], [3, 6, 7]]
+```
+
+### remove numbers from string
+```python
+''.join(list(filter(lambda x: x.isalpha(), 'abc123def4fg56vcg2')))
+# abcdeffgvcg
 ```

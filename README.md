@@ -39,6 +39,7 @@ This github repo is a collection of amazing python one liners.
 * [combine strings from a list](#combine-strings-from-a-list)
 * [get even numbers from a list](#get-even-numbers-from-a-list)
 * [input a list of tuples](#input-a-list-of-tuples)
+* [transpose matrix](#transpose-matrix)
 
 
 ### quick sort
@@ -256,4 +257,11 @@ list(tuple(map(int, input().split())) for r in range(int(input('enter the no of 
 # 3 4
 # 5 6
 # [(1, 2), (3, 4), (5, 6)]
+```
+
+### transpose matrix
+```python
+list(list(x) for x in zip(*old_list))
+# old_list = [[1, 2, 3], [3, 4, 6], [5, 6, 7]]
+# [[1, 3, 5], [2, 4, 6], [3, 6, 7]]
 ```

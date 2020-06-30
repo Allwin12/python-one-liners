@@ -42,8 +42,7 @@ This github repo is a collection of amazing python one liners.
 * [transpose matrix](#transpose-matrix)
 * [remove numbers from string](#remove-numbers-from-string)
 * [sort dictionary with values](#sort-dictionary-with-values)
-
-
+* [sort dictionary with key](#sort-dictionary-with-key)
 
 
 ### quick sort
@@ -281,4 +280,11 @@ list(list(x) for x in zip(*old_list))
 # x = {1: 2, 3: 4, 4: 3, 2: 1, 0: 0}
 {k: v for k, v in sorted(x.items(), key=lambda item: item[1])}
 # {0: 0, 2: 1, 1: 2, 4: 3, 3: 4}
+```
+
+### sort dictionary with key
+```python
+# {'one': 1, 'four': 4, 'eight': 8}
+{key:d[key] for key in sorted(d.keys())}
+# {'eight': 8, 'four': 4, 'one': 1}
 ```

@@ -41,6 +41,7 @@ This github repo is a collection of amazing python one liners.
 * [input a list of tuples](#input-a-list-of-tuples)
 * [transpose matrix](#transpose-matrix)
 * [remove numbers from string](#remove-numbers-from-string)
+* [sort dictionary with values](#sort-dictionary-with-values)
 
 
 ### quick sort
@@ -271,4 +272,11 @@ list(list(x) for x in zip(*old_list))
 ```python
 ''.join(list(filter(lambda x: x.isalpha(), 'abc123def4fg56vcg2')))
 # abcdeffgvcg
+```
+
+### sort dictionary with values
+```python
+# x = {1: 2, 3: 4, 4: 3, 2: 1, 0: 0}
+{k: v for k, v in sorted(x.items(), key=lambda item: item[1])}
+# {0: 0, 2: 1, 1: 2, 4: 3, 3: 4}
 ```

@@ -41,8 +41,10 @@ This github repo is a collection of amazing python one liners.
 * [input a list of tuples](#input-a-list-of-tuples)
 * [transpose matrix](#transpose-matrix)
 * [remove numbers from string](#remove-numbers-from-string)
+* [replace words in a sentence](#replace-words-in-a-sentence)
 * [sort dictionary with values](#sort-dictionary-with-values)
 * [sort dictionary with key](#sort-dictionary-with-key)
+* [replace words in a sentence](#replace-words-in-a-sentence)
 
 
 ### quick sort
@@ -273,6 +275,13 @@ list(list(x) for x in zip(*old_list))
 ```python
 ''.join(list(filter(lambda x: x.isalpha(), 'abc123def4fg56vcg2')))
 # abcdeffgvcg
+```
+
+### replace words in a sentence
+```python
+string = "He is a good boy"
+string.replace('good', 'bad')
+# returns 'he is a bad boy'
 ```
 
 ### sort dictionary with values

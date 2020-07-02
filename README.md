@@ -44,7 +44,7 @@ This github repo is a collection of amazing python one liners.
 * [replace words in a sentence](#replace-words-in-a-sentence)
 * [sort dictionary with values](#sort-dictionary-with-values)
 * [sort dictionary with key](#sort-dictionary-with-key)
-* [substring in a string](# substring in a string)
+* [substring in a string](#substring-in-a-string)
 
 
 ### quick sort

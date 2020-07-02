@@ -1,5 +1,9 @@
 This github repo is a collection of amazing python one liners.
 
+
+* [check data type](#check-data-type)
+* [convert string to lower case](#convert-string-to-lower-case)
+* [convert string to upper case](#convert-string-to-upper-case)
 * [quick sort](#quick-sort)
 * [sum of n consecutive numbers](#sum-of-n-consecutive-numbers)
 * [swap two numbers](#swap-two-numbers)
@@ -12,7 +16,6 @@ This github repo is a collection of amazing python one liners.
 * [set comprehension](#set-comprehension)
 * [dictionary comprehension](#dictionary-comprehension)
 * [if-else](#if-else)
-* [check data type](#check-data-type)
 * [while loop](#while-loop)
 * [write to a file using print](#write-to-a-file-using-print)
 * [count occurence of a character in a string](#count-occurence-of-a-character-in-a-string)
@@ -49,6 +52,20 @@ This github repo is a collection of amazing python one liners.
 * [substring in a string](#substring-in-a-string)
 
 
+
+### convert string to lower case
+```python
+"Hi my name is Allwin".lower()
+# 'hi my name is allwin'
+"Hi my name is Allwin".casefold()
+# 'hi my name is allwin'
+```
+
+### convert string to upper case
+```python
+"hi my name is Allwin".upper()
+# 'HI MY NAME IS ALLWIN'
+```
 
 ### quick sort
 ```python

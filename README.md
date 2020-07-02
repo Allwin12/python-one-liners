@@ -44,7 +44,7 @@ This github repo is a collection of amazing python one liners.
 * [replace words in a sentence](#replace-words-in-a-sentence)
 * [sort dictionary with values](#sort-dictionary-with-values)
 * [sort dictionary with key](#sort-dictionary-with-key)
-* [replace words in a sentence](#replace-words-in-a-sentence)
+* [substring in a string](# substring in a string)
 
 
 ### quick sort
@@ -296,4 +296,10 @@ string.replace('good', 'bad')
 # {'one': 1, 'four': 4, 'eight': 8}
 {key:d[key] for key in sorted(d.keys())}
 # {'eight': 8, 'four': 4, 'one': 1}
+```
+
+### substring in a string
+```python
+'sent' in 'sentence'
+# returns True
 ```

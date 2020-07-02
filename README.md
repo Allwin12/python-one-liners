@@ -4,6 +4,7 @@ This github repo is a collection of amazing python one liners.
 * [check data type](#check-data-type)
 * [convert string to lower case](#convert-string-to-lower-case)
 * [convert string to upper case](#convert-string-to-upper-case)
+* [convert string to bytes](#convert-string-to-bytes)
 * [quick sort](#quick-sort)
 * [sum of n consecutive numbers](#sum-of-n-consecutive-numbers)
 * [swap two numbers](#swap-two-numbers)
@@ -65,6 +66,12 @@ This github repo is a collection of amazing python one liners.
 ```python
 "hi my name is Allwin".upper()
 # 'HI MY NAME IS ALLWIN'
+```
+
+### convert string to bytes
+```python
+"convert string to bytes using encode method".encode()
+# b'convert string to bytes using encode method'
 ```
 
 ### quick sort

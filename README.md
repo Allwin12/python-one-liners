@@ -32,6 +32,7 @@ This github repo is a collection of amazing python one liners.
 * [get a string of upper case alphabets](#get-a-string-of-upper-case-alphabets)
 * [get a string of digits from 0 to 9](#get-a-string-of-digits-from-0-to-9)
 * [get individual digits from a number](#get-individual-digits-from-a-number)
+* [hypotenuse](#hypotenuse)
 * [convert decimal to binary](#convert-decimal-to-binary)
 * [convert decimal to octal](#convert-decimal-to-octal)
 * [convert decimal to hexadecimal](#convert-deciaml-to-hexadecimal)
@@ -46,6 +47,7 @@ This github repo is a collection of amazing python one liners.
 * [sort dictionary with values](#sort-dictionary-with-values)
 * [sort dictionary with key](#sort-dictionary-with-key)
 * [substring in a string](#substring-in-a-string)
+
 
 
 ### quick sort
@@ -219,6 +221,11 @@ import string; print(string.digits)
 ### get individual digits from a number
 ```python
 digits = [int(digit) for digit in str(12345)]
+```
+
+### hypotenuse
+```python
+import math; math.hypot(8, 6)
 ```
 
 ### convert decimal to binary

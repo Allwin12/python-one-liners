@@ -37,6 +37,7 @@ This github repo is a collection of amazing python one liners.
 * [convert decimal to hexadecimal](#convert-deciaml-to-hexadecimal)
 * [convert a list of strings to integers](#convert-a-list-of-strings-to-integers)
 * [combine strings from a list](#combine-strings-from-a-list)
+* [combine two lists to dictionary](#combine-two-lists-to-dictionary)
 * [get even numbers from a list](#get-even-numbers-from-a-list)
 * [input a list of tuples](#input-a-list-of-tuples)
 * [transpose matrix](#transpose-matrix)
@@ -245,6 +246,12 @@ list(map(int, ['1', '2', '3']))
 ```python
 " ".join(["hello", "world"])
 # "hello world"
+```
+
+### combine two lists to dictionary
+```python
+dict(zip([1,2,3,4], ['a','b','c','d']))
+{1: 'a', 2: 'b', 3: 'c', 4: 'd'}
 ```
 
 ### get even numbers from a list

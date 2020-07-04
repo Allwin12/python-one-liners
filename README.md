@@ -23,6 +23,7 @@ This github repo is a collection of amazing python one liners.
 * [merge two lists](#merge-two-lists)
 * [merge two dictionaries](#merge-two-dictionaries)
 * [merge two sets](#merge-two-sets)
+* [most frequnet element in a list](#most-frequent-element-in-a-list)
 * [get timestamp](#get-timestamp)
 * [repeat values in a list for n times](#repeat-values-in-a-list-for-n-time)
 * [generate a random number of n digits](#generate-a-random-number-of-n-digits)
@@ -180,6 +181,13 @@ set1.update(set2)
 ### get timestamp
 ```python
 import time; print(time.time())
+```
+
+### most frequent element in a list
+```python
+numbers = [9, 4, 5, 4, 4, 5, 9, 5, 4]
+most_frequent_element = max(set(test_list), key=test_list.count)
+# 4
 ```
 
 ### repeat values in a list for n time

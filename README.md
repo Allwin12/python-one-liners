@@ -49,6 +49,7 @@ This github repo is a collection of amazing python one liners.
 * [transpose matrix](#transpose-matrix)
 * [remove numbers from string](#remove-numbers-from-string)
 * [replace words in a sentence](#replace-words-in-a-sentence)
+* [rotate a list](#rotate-a-list)
 * [sort dictionary with values](#sort-dictionary-with-values)
 * [sort dictionary with key](#sort-dictionary-with-key)
 * [substring in a string](#substring-in-a-string)
@@ -328,6 +329,17 @@ list(list(x) for x in zip(*old_list))
 string = "He is a good boy"
 string.replace('good', 'bad')
 # returns 'he is a bad boy'
+```
+
+### rotate a list
+```python
+# li = [1,2,3,4,5]
+# right to left
+li[n:] + li[:n] # n is the no of rotations
+li[2:] + li[:2]
+[3, 4, 5, 1, 2]
+# left to right
+li[-n:] + li[:-n]
 ```
 
 ### sort dictionary with values

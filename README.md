@@ -340,6 +340,8 @@ li[2:] + li[:2]
 [3, 4, 5, 1, 2]
 # left to right
 li[-n:] + li[:-n]
+li[-1:] + li[:-1] 
+[5, 1, 2, 3, 4]
 ```
 
 ### sort dictionary with values

@@ -24,6 +24,7 @@ This github repo is a collection of amazing python one liners.
 * [merge two dictionaries](#merge-two-dictionaries)
 * [merge two sets](#merge-two-sets)
 * [most frequnet element in a list](#most-frequent-element-in-a-list)
+* [nested list comprehension](#nested-list-comprehension)
 * [get timestamp](#get-timestamp)
 * [repeat values in a list for n times](#repeat-values-in-a-list-for-n-time)
 * [generate a random number of n digits](#generate-a-random-number-of-n-digits)
@@ -189,6 +190,12 @@ import time; print(time.time())
 numbers = [9, 4, 5, 4, 4, 5, 9, 5, 4]
 most_frequent_element = max(set(test_list), key=test_list.count)
 # 4
+```
+
+### nested list comprehension
+```python
+numbers = [[num] for num in range(10)]
+# [[0], [1], [2], [3], [4], [5], [6], [7], [8], [9]]
 ```
 
 ### repeat values in a list for n time

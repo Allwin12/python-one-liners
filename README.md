@@ -5,7 +5,6 @@ This github repo is a collection of amazing python one liners.
 * [convert string to lower case](#convert-string-to-lower-case)
 * [convert string to upper case](#convert-string-to-upper-case)
 * [convert string to bytes](#convert-string-to-bytes)
-* [quick sort](#quick-sort)
 * [sum of n consecutive numbers](#sum-of-n-consecutive-numbers)
 * [swap two numbers](#swap-two-numbers)
 * [fibonacci series](#fibanocci-series)
@@ -47,14 +46,14 @@ This github repo is a collection of amazing python one liners.
 * [combine two lists to dictionary](#combine-two-lists-to-dictionary)
 * [get even numbers from a list](#get-even-numbers-from-a-list)
 * [input a list of tuples](#input-a-list-of-tuples)
-* [transpose matrix](#transpose-matrix)
+* [quick sort](#quick-sort)
 * [remove numbers from string](#remove-numbers-from-string)
 * [replace words in a sentence](#replace-words-in-a-sentence)
 * [rotate a list](#rotate-a-list)
 * [sort dictionary with values](#sort-dictionary-with-values)
 * [sort dictionary with key](#sort-dictionary-with-key)
 * [substring in a string](#substring-in-a-string)
-
+* [transpose matrix](#transpose-matrix)
 
 
 ### convert string to lower case

@@ -12,6 +12,7 @@ This github repo is a collection of amazing python one liners.
 * [starting a http server](#starting-a-http-server)
 * [reverse a list](#reverse-a-list)
 * [factorial of a number](#factorial-of-a-number)
+* [floor division result](#floor-division-result)
 * [list comprehension](#list-comprehension)
 * [set comprehension](#set-comprehension)
 * [dictionary comprehension](#dictionary-comprehension)
@@ -114,6 +115,12 @@ numbers[::-1]
 ### factorial of a number
 ```python
 import math; fact_5 = math.factorial(5)
+```
+
+### floor divison result
+```python
+print(5//2)
+# 2
 ```
 
 ### list comprehension

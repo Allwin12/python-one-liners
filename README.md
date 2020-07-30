@@ -8,6 +8,7 @@ This github repo is a collection of amazing python one liners.
 * [convert decimal to octal](#convert-decimal-to-octal)
 * [convert decimal to hexadecimal](#convert-deciaml-to-hexadecimal)
 * [convert a list of strings to integers](#convert-a-list-of-strings-to-integers)
+* [convert key value pair to dictionary](#convert-key-value-pair-to-dictionary)
 * [convert string to lower case](#convert-string-to-lower-case)
 * [convert string to upper case](#convert-string-to-upper-case)
 * [convert string to bytes](#convert-string-to-bytes)
@@ -15,37 +16,58 @@ This github repo is a collection of amazing python one liners.
 
 # D
 * [dictionary comprehension](#dictionary-comprehension)
+
+# F
 * [fibonacci series](#fibanocci-series)
 * [flat list out of list of lists](#flat-list-out-of-list-of-lists)
 * [factorial of a number](#factorial-of-a-number)
 * [floor division result](#floor-division-result)
+
+# G
+* [generate a random number of n digits](#generate-a-random-number-of-n-digits)
+* [get a string of small case alphabets](#get-a-string-of-small-case-alphabets)
+* [get a string of upper case alphabets](#get-a-string-of-upper-case-alphabets)
+* [get a string of digits from 0 to 9](#get-a-string-of-digits-from-0-to-9)
+* [get even numbers from a list](#get-even-numbers-from-a-list)
+* [get individual digits from a number](#get-individual-digits-from-a-number)
+* [get timestamp](#get-timestamp)
+* [get quotient and remainder](#get-quotient-and-remainder)
+
+# H
+* [hypotenuse](#hypotenuse)
+
+# I
 * [if-else](#if-else)
 * [infinite-while-loop](#infinite-while-loop)
+* [input a list of tuples](#input-a-list-of-tuples)
+
+# L
 * [list comprehension](#list-comprehension)
+
+# M
 * [merge two lists](#merge-two-lists)
 * [merge two dictionaries](#merge-two-dictionaries)
 * [merge two sets](#merge-two-sets)
 * [most frequnet element in a list](#most-frequent-element-in-a-list)
+
+# N
 * [nested list comprehension](#nested-list-comprehension)
-* [get timestamp](#get-timestamp)
-* [repeat values in a list for n times](#repeat-values-in-a-list-for-n-time)
-* [generate a random number of n digits](#generate-a-random-number-of-n-digits)
-* [convert key value pair to dictionary](#convert-key-value-pair-to-dictionary)
-* [get quotient and remainder](#get-quotient-and-remainder)
+
+# P
 * [python zen](#python-zen)
-* [remove duplicate elements from a list](#remove-duplicate-elements-from-a-list)
-* [get a string of small case alphabets](#get-a-string-of-small-case-alphabets)
-* [get a string of upper case alphabets](#get-a-string-of-upper-case-alphabets)
-* [get a string of digits from 0 to 9](#get-a-string-of-digits-from-0-to-9)
-* [get individual digits from a number](#get-individual-digits-from-a-number)
-* [hypotenuse](#hypotenuse)
-* [get even numbers from a list](#get-even-numbers-from-a-list)
-* [input a list of tuples](#input-a-list-of-tuples)
+
+# Q
 * [quick sort](#quick-sort)
+
+# R
+* [remove duplicate elements from a list](#remove-duplicate-elements-from-a-list)
 * [remove numbers from string](#remove-numbers-from-string)
+* [repeat values in a list for n times](#repeat-values-in-a-list-for-n-time)
 * [replace words in a sentence](#replace-words-in-a-sentence)
 * [rotate a list](#rotate-a-list)
 * [reverse a list](#reverse-a-list)
+
+# S
 * [set comprehension](#set-comprehension)
 * [sort dictionary with values](#sort-dictionary-with-values)
 * [sort dictionary with key](#sort-dictionary-with-key)
@@ -55,7 +77,11 @@ This github repo is a collection of amazing python one liners.
 * [sum of n consecutive numbers](#sum-of-n-consecutive-numbers)
 * [starting a http server](#starting-a-http-server)
 * [swap two numbers](#swap-two-numbers)
+
+# T
 * [transpose matrix](#transpose-matrix)
+
+# W
 * [while loop](#while-loop)
 * [write to a file using print](#write-to-a-file-using-print)
 

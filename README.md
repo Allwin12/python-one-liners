@@ -117,7 +117,7 @@ numbers[::-1]
 import math; fact_5 = math.factorial(5)
 ```
 
-### floor divison result
+### floor division result
 ```python
 print(5//2)
 # 2

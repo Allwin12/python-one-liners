@@ -17,6 +17,7 @@ This github repo is a collection of amazing python one liners.
 * [set comprehension](#set-comprehension)
 * [dictionary comprehension](#dictionary-comprehension)
 * [if-else](#if-else)
+* [infinite-while-loop](#infinite-while-loop)
 * [while loop](#while-loop)
 * [write to a file using print](#write-to-a-file-using-print)
 * [count occurence of a character in a string](#count-occurence-of-a-character-in-a-string)
@@ -143,6 +144,11 @@ dict_numbers = {x:x*x for x in range(0,5) }
 ### if else
 ```python
 print("even") if 4%2==0 else print("odd")
+```
+
+### infinite while loop
+```python
+while 1:0
 ```
 
 ### check data type

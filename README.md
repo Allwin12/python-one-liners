@@ -12,6 +12,7 @@ This github repo is a collection of amazing python one liners.
 * [convert string to lower case](#convert-string-to-lower-case)
 * [convert string to upper case](#convert-string-to-upper-case)
 * [convert string to bytes](#convert-string-to-bytes)
+* [copy files](#copy-files)
 * [count occurence of a character in a string](#count-occurence-of-a-character-in-a-string)
 
 # D
@@ -105,6 +106,11 @@ This github repo is a collection of amazing python one liners.
 ```python
 "convert string to bytes using encode method".encode()
 # b'convert string to bytes using encode method'
+```
+
+### copy files
+```python
+import shutil; shutil.copyfile('source.txt', 'dest.txt')
 ```
 
 ### quick sort

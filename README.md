@@ -44,6 +44,7 @@ This github repo is a collection of amazing python one liners.
 * [input a list of tuples](#input-a-list-of-tuples)
 
 # L
+* [longest string in a list](#longest-string-in-a-list)
 * [list comprehension](#list-comprehension)
 
 # M
@@ -157,6 +158,13 @@ import math; fact_5 = math.factorial(5)
 ```python
 print(5//2)
 # 2
+```
+
+### longest string in a list
+```python
+# words = ['This', 'is', 'a', 'list', 'of', 'words']
+max(words, key=len)
+# 'words'
 ```
 
 ### list comprehension

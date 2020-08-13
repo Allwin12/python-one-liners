@@ -35,6 +35,7 @@ This github repo is a collection of amazing python one liners.
 
 # H
 * [hypotenuse](#hypotenuse)
+* [human-readable-datetime](#human-readable-datetime)
 
 # I
 * [if-else](#if-else)
@@ -306,6 +307,12 @@ digits = [int(digit) for digit in str(12345)]
 ### hypotenuse
 ```python
 import math; math.hypot(8, 6)
+```
+
+### human readable datetime
+```python
+import time; print(time.ctime())
+# Thu Aug 13 20:16:23 2020
 ```
 
 ### convert decimal to binary

@@ -88,6 +88,9 @@ This github repo is a collection of amazing python one liners.
 # T
 * [transpose matrix](#transpose-matrix)
 
+# U
+* [Unpacking elements](#unpacking-elements)
+
 # W
 * [while loop](#while-loop)
 * [write to a file using print](#write-to-a-file-using-print)
@@ -457,4 +460,12 @@ li[-1:] + li[:-1]
 ```python
 'sent' in 'sentence'
 # returns True
+```
+
+### unpacking elements
+```python
+a, *b, c = [1, 2, 3, 4, 5]
+print(a) # 1
+print(b) # [2, 3, 4]
+print(c) # 5
 ```

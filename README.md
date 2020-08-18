@@ -1,5 +1,8 @@
 This github repo is a collection of amazing python one liners.
 
+# A
+* [anagram](#anagram)
+
 # C
 * [check data type](#check-data-type)
 * [combine strings from a list](#combine-strings-from-a-list)
@@ -88,6 +91,16 @@ This github repo is a collection of amazing python one liners.
 * [while loop](#while-loop)
 * [write to a file using print](#write-to-a-file-using-print)
 
+
+### anagram
+```python
+from collections import Counter
+
+s1 = 'below'
+s2 = 'elbow'
+
+print('anagram') if Counter(s1) == Counter(s2) else print('not an anagram')
+```
 
 ### convert string to lower case
 ```python

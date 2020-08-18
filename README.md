@@ -266,6 +266,13 @@ numbers = [9, 4, 5, 4, 4, 5, 9, 5, 4]
 most_frequent_element = max(set(test_list), key=test_list.count)
 # 4
 ```
+```python
+from collections import Counter
+
+numbers = [9, 4, 5, 4, 4, 5, 9, 5, 4]
+print(list(Counter(numbers).most_common()))
+# [(4, 4), (5, 3), (9, 2)]
+```
 
 ### nested list comprehension
 ```python

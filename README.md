@@ -26,6 +26,7 @@ This github repo is a collection of amazing python one liners.
 * [flat list out of list of lists](#flat-list-out-of-list-of-lists)
 * [factorial of a number](#factorial-of-a-number)
 * [floor division result](#floor-division-result)
+* [for and if](#for-and-if)
 
 # G
 * [generate a random number of n digits](#generate-a-random-number-of-n-digits)
@@ -171,6 +172,12 @@ import math; fact_5 = math.factorial(5)
 ```python
 print(5//2)
 # 2
+```
+
+### for and if
+```python
+new_li = [number for number in [1, 2, 3, 4] if number % 2 == 0]
+# [2, 4]
 ```
 
 ### longest string in a list

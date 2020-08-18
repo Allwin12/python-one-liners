@@ -112,7 +112,7 @@ print('anagram') if Counter(s1) == Counter(s2) else print('not an anagram')
 ### binary to decimal
 ```python
 decimal = int('1010', 2)
-print(decimal)
+print(decimal) #10
 ```
 
 ### convert string to lower case

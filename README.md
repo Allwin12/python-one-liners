@@ -3,6 +3,9 @@ This github repo is a collection of amazing python one liners.
 # A
 * [anagram](#anagram)
 
+# B
+* [binary to decimal](#binary-to-decimal)
+
 # C
 * [check data type](#check-data-type)
 * [combine strings from a list](#combine-strings-from-a-list)
@@ -104,6 +107,12 @@ s1 = 'below'
 s2 = 'elbow'
 
 print('anagram') if Counter(s1) == Counter(s2) else print('not an anagram')
+```
+
+### binary to decimal
+```python
+decimal = int('1010', 2)
+print(decimal)
 ```
 
 ### convert string to lower case

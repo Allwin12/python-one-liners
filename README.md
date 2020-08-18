@@ -42,6 +42,7 @@ This github repo is a collection of amazing python one liners.
 * [get quotient and remainder](#get-quotient-and-remainder)
 
 # H
+* [hexadecimal to decimal](#hexadecimal-to-decimal)
 * [hypotenuse](#hypotenuse)
 * [human-readable-datetime](#human-readable-datetime)
 
@@ -364,6 +365,12 @@ import string; print(string.digits)
 ### get individual digits from a number
 ```python
 digits = [int(digit) for digit in str(12345)]
+```
+
+### hexadecimal to decimal
+```python
+print(int('da9', 16))
+# 3497 
 ```
 
 ### hypotenuse

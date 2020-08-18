@@ -63,6 +63,9 @@ This github repo is a collection of amazing python one liners.
 # N
 * [nested list comprehension](#nested-list-comprehension)
 
+# O
+* [octal to decimal](#octal-to-decimal)
+
 # P
 * [python zen](#python-zen)
 
@@ -290,6 +293,12 @@ print(list(Counter(numbers).most_common()))
 ```python
 numbers = [[num] for num in range(10)]
 # [[0], [1], [2], [3], [4], [5], [6], [7], [8], [9]]
+```
+
+### octal to decimal
+```python
+print(int('30', 8)) 
+# 24
 ```
 
 ### repeat values in a list for n time

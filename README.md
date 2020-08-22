@@ -10,6 +10,7 @@ This github repo is a collection of amazing python one liners.
 * [check data type](#check-data-type)
 * [combine strings from a list](#combine-strings-from-a-list)
 * [combine two lists to dictionary](#combine-two-lists-to-dictionary)
+* [common element between two lists](#common-element-between-two-lists)
 * [convert decimal to binary](#convert-decimal-to-binary)
 * [convert decimal to octal](#convert-decimal-to-octal)
 * [convert decimal to hexadecimal](#convert-deciaml-to-hexadecimal)
@@ -415,6 +416,16 @@ list(map(int, ['1', '2', '3']))
 ```python
 dict(zip([1,2,3,4], ['a','b','c','d']))
 {1: 'a', 2: 'b', 3: 'c', 4: 'd'}
+```
+
+### common element between two lists
+```python
+list1 = [1, 2, 4, 5]
+list2 = [6, 8, 4, 2]
+
+print(set(list1) & set(list2))
+print(set(list1).intersection(set(list2)))
+# {2, 4}
 ```
 
 ### get even numbers from a list

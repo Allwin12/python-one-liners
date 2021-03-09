@@ -53,6 +53,7 @@ This github repo is a collection of amazing python one liners.
 * [input a list of tuples](#input-a-list-of-tuples)
 
 # L
+* [lambda function with if else](#lambda-function-with-if-else)
 * [longest string in a list](#longest-string-in-a-list)
 * [list comprehension](#list-comprehension)
 
@@ -195,6 +196,13 @@ print(5//2)
 ```python
 new_li = [number for number in [1, 2, 3, 4] if number % 2 == 0]
 # [2, 4]
+```
+
+### lambda function with if else
+```python
+list(map(lambda x: x if x%2==0 else x+1, [1, 2, 3, 4]))
+# [2, 2, 4, 4]
+# converts only odd numbers to even numbers by adding 1 to it
 ```
 
 ### longest string in a list

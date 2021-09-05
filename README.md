@@ -153,7 +153,7 @@ qsort = lambda l : l if len(l)<=1 else qsort([x for x in l[1:] if x < l[0]]) + [
 
 ### sum of n consecutive numbers
 ```python
-sum(range(0, n+1)
+sum(range(0, n+1))
 ```
 
 ### swap two values
@@ -174,6 +174,7 @@ lambda x: x if x<=1 else fib(x-1) + fib(x-2)
 ### starting a http server
 ```python
 python3 -m http.server 8000
+python2 -m SimpleHTTPServer
 ```
 
 ### reverse a list

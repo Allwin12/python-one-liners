@@ -24,6 +24,7 @@ This github repo is a collection of amazing python one liners.
 
 # D
 * [dictionary comprehension](#dictionary-comprehension)
+* [deleting multiple elements from a list](#deleting-multiple-elements-from-a-list)
 
 # F
 * [fibonacci series](#fibanocci-series)
@@ -146,6 +147,18 @@ print(decimal) #10
 import shutil; shutil.copyfile('source.txt', 'dest.txt')
 ```
 
+### deleting multiple elements from a list
+```python
+li = [1, 2, 3, 4, 5]
+del li[0:3] 
+# [4, 5]
+```
+
+### fibonacci series
+```python
+lambda x: x if x<=1 else fib(x-1) + fib(x-2)
+```
+
 ### quick sort
 ```python
 qsort = lambda l : l if len(l)<=1 else qsort([x for x in l[1:] if x < l[0]]) + [l[0]] + qsort([x for x in l[1:] if x >= l[0]])
@@ -159,11 +172,6 @@ sum(range(0, n+1))
 ### swap two values
 ```python
 a,b = b,a
-```
-
-### fibonacci series
-```python
-lambda x: x if x<=1 else fib(x-1) + fib(x-2)
 ```
 
 ### flat list out of list of lists

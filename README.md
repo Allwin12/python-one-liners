@@ -70,6 +70,7 @@ This github repo is a collection of amazing python one liners.
 * [nested list comprehension](#nested-list-comprehension)
 
 # O
+* [object creation](#object-creation)
 * [octal to decimal](#octal-to-decimal)
 
 # P
@@ -371,6 +372,11 @@ print(list(Counter(numbers).most_common()))
 ```python
 numbers = [[num] for num in range(10)]
 # [[0], [1], [2], [3], [4], [5], [6], [7], [8], [9]]
+```
+
+### object creation
+```python
+obj_1 = type('obj_1', (object,), {'property': 'value'})()
 ```
 
 ### octal to decimal

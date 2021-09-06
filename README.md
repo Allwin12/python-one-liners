@@ -138,6 +138,11 @@ hex(24)
 oct(24)
 ```
 
+### convert key value pair to dictionary
+```python
+dict(name='allwin', age=23)
+```
+
 ### convert string to lower case
 ```python
 "Hi my name is Allwin".lower()
@@ -384,11 +389,6 @@ import itertools; print(list(itertools.repeat(10,5)))
 ```python
 from random import randint; print(''.join(["{}".format(randint(0, 9)) for num in range(0, n)]))
 # This will print 1038496714 given the value of n=10
-```
-
-### convert key value pair to dictionary
-```python
-dict(name='allwin', age=23)
 ```
 
 ### get quotient and remainder

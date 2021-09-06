@@ -44,6 +44,7 @@ This github repo is a collection of amazing python one liners.
 * [get quotient and remainder](#get-quotient-and-remainder)
 
 # H
+* [half pyramid](#half-pyramid)
 * [hexadecimal to decimal](#hexadecimal-to-decimal)
 * [hypotenuse](#hypotenuse)
 * [human-readable-datetime](#human-readable-datetime)
@@ -121,6 +122,20 @@ print('anagram') if Counter(s1) == Counter(s2) else print('not an anagram')
 decimal = int('1010', 2)
 print(decimal) #10
 ```
+### convert decimal to binary
+```python
+bin(24)
+```
+
+### convert decimal to hexadecimal
+```python
+hex(24)
+```
+
+### convert decimal to octal
+```python
+oct(24)
+```
 
 ### convert string to lower case
 ```python
@@ -157,6 +172,18 @@ del li[0:3]
 ### fibonacci series
 ```python
 lambda x: x if x<=1 else fib(x-1) + fib(x-2)
+```
+
+### half pyramid
+```python
+n = 5
+print('\n'.join('* ' * i for i in range(1, n + 1)))
+
+# *
+# * *
+# * * *
+# * * * *
+# * * * * *
 ```
 
 ### quick sort
@@ -400,21 +427,6 @@ import math; math.hypot(8, 6)
 ```python
 import time; print(time.ctime())
 # Thu Aug 13 20:16:23 2020
-```
-
-### convert decimal to binary
-```python
-bin(24)
-```
-
-### convert decimal to octal
-```python
-oct(24)
-```
-
-### convert decimal to hexadecimal
-```python
-hex(24)
 ```
 
 ### convert a list of strings to integers

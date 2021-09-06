@@ -28,6 +28,7 @@ This github repo is a collection of amazing python one liners.
 
 # F
 * [fibonacci series](#fibanocci-series)
+* [fizzbuzz](#fizzbuzz)
 * [flat list out of list of lists](#flat-list-out-of-list-of-lists)
 * [factorial of a number](#factorial-of-a-number)
 * [floor division result](#floor-division-result)
@@ -172,6 +173,32 @@ del li[0:3]
 ### fibonacci series
 ```python
 lambda x: x if x<=1 else fib(x-1) + fib(x-2)
+```
+
+### fizzbuzz
+```python
+n = 20
+print('\n'.join('Fizz' * (i%3==0) + 'Buzz' * (i%5==0) or str(i) for i in range(1, n)))
+
+1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+FizzBuzz
+16
+17
+Fizz
+19
 ```
 
 ### half pyramid

@@ -26,6 +26,9 @@ This github repo is a collection of amazing python one liners.
 * [dictionary comprehension](#dictionary-comprehension)
 * [deleting multiple elements from a list](#deleting-multiple-elements-from-a-list)
 
+# E
+* [execute strings](#execute-strings)
+
 # F
 * [fibonacci series](#fibanocci-series)
 * [fizzbuzz](#fizzbuzz)
@@ -174,6 +177,12 @@ import shutil; shutil.copyfile('source.txt', 'dest.txt')
 li = [1, 2, 3, 4, 5]
 del li[0:3] 
 # [4, 5]
+```
+
+### execute strings
+```
+exec('print("hello world!")')
+# hello world!
 ```
 
 ### fibonacci series

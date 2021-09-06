@@ -179,11 +179,11 @@ lambda x: x if x<=1 else fib(x-1) + fib(x-2)
 n = 5
 print('\n'.join('* ' * i for i in range(1, n + 1)))
 
-# *
-# * *
-# * * *
-# * * * *
-# * * * * *
+*
+* *
+* * *
+* * * *
+* * * * *
 ```
 
 ### quick sort

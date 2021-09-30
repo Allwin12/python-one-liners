@@ -78,7 +78,7 @@ This github repo is a collection of amazing python one liners.
 
 # P
 * [permutation](#permutation)
-* [prime-numbers-in-a-range](#prime-numbers-in-a-range)
+* [prime numbers in a range](#prime-numbers-in-a-range)
 * [python zen](#python-zen)
 
 # Q

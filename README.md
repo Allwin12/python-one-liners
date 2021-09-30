@@ -32,7 +32,7 @@ This github repo is a collection of amazing python one liners.
 # F
 * [fibonacci series](#fibanocci-series)
 * [fizzbuzz](#fizzbuzz)
-* [flat list out of list of lists](#flat-list-out-of-list-of-lists)
+* [flatten list](#flatten list)
 * [factorial of a number](#factorial-of-a-number)
 * [floor division result](#floor-division-result)
 * [for and if](#for-and-if)
@@ -245,7 +245,7 @@ sum(range(0, n+1))
 a,b = b,a
 ```
 
-### flat list out of list of lists
+### flatten list
 ``` python
 [item for sublist in main_list for item in sublist]
 ```

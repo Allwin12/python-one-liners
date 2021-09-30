@@ -540,8 +540,9 @@ string.replace('good', 'bad')
 ```
 
 ### replace with regular expression
-```
+```python
 # replace everythin in one go
+
 import re
 re.sub(r'[.+()@]', '', 'A(ll+wi)@n.')
 # 'Allwin'

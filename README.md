@@ -77,6 +77,7 @@ This github repo is a collection of amazing python one liners.
 * [octal to decimal](#octal-to-decimal)
 
 # P
+* [permutation](#permutation)
 * [python zen](#python-zen)
 
 # Q
@@ -516,11 +517,12 @@ list(tuple(map(int, input().split())) for r in range(int(input('enter the no of 
 # [(1, 2), (3, 4), (5, 6)]
 ```
 
-### transpose matrix
+### permutation
 ```python
-list(list(x) for x in zip(*old_list))
-# old_list = [[1, 2, 3], [3, 4, 6], [5, 6, 7]]
-# [[1, 3, 5], [2, 4, 6], [3, 6, 7]]
+from itertools import permutations
+print([''.join(perm) for perm in permutations('abc')])
+
+# ['abc', 'acb', 'bac', 'bca', 'cab', 'cba']
 ```
 
 ### remove numbers from string
@@ -567,6 +569,13 @@ li[-1:] + li[:-1]
 ```python
 'sent' in 'sentence'
 # returns True
+```
+
+### transpose matrix
+```python
+list(list(x) for x in zip(*old_list))
+# old_list = [[1, 2, 3], [3, 4, 6], [5, 6, 7]]
+# [[1, 3, 5], [2, 4, 6], [3, 6, 7]]
 ```
 
 ### unpacking elements

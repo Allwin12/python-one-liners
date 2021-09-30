@@ -32,7 +32,7 @@ This github repo is a collection of amazing python one liners.
 # F
 * [fibonacci series](#fibanocci-series)
 * [fizzbuzz](#fizzbuzz)
-* [flatten list](#flatten list)
+* [flatten list](#flatten-list)
 * [factorial of a number](#factorial-of-a-number)
 * [floor division result](#floor-division-result)
 * [for and if](#for-and-if)

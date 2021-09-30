@@ -250,15 +250,17 @@ a,b = b,a
 [item for sublist in main_list for item in sublist]
 ```
 
+Using itertools
+```python
+import itertools
+print(list(itertools.chain.from_iterable(a_list)))
+[1, 2, 3, 4, 5, 6]
+```
+
 ### starting a http server
 ```python
 python3 -m http.server 8000
 python2 -m SimpleHTTPServer
-```
-
-### reverse a list
-```python
-numbers[::-1]
 ```
 
 ### factorial of a number
@@ -346,6 +348,12 @@ print("umbrella".count('l'))
 ```python
 list1.extend(list2)
 # contents of list 2 will be added to the list1
+```
+
+or
+```python
+[1, 2] + [3, 4]
+# [1, 2, 3, 4]
 ```
 
 ### merge two dictionaries
@@ -546,6 +554,11 @@ string.replace('good', 'bad')
 import re
 re.sub(r'[.+()@]', '', 'A(ll+wi)@n.')
 # 'Allwin'
+```
+
+### reverse a list
+```python
+numbers[::-1]
 ```
 
 ### rotate a list

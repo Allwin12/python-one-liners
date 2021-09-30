@@ -78,6 +78,7 @@ This github repo is a collection of amazing python one liners.
 
 # P
 * [permutation](#permutation)
+* [prime-numbers-in-a-range](#prime-numbers-in-a-range)
 * [python zen](#python-zen)
 
 # Q
@@ -532,6 +533,13 @@ from itertools import permutations
 print([''.join(perm) for perm in permutations('abc')])
 
 # ['abc', 'acb', 'bac', 'bca', 'cab', 'cba']
+```
+
+### prime numbers in a range
+```python
+primes = list(filter(lambda x:all(x % y != 0 for y in range(2, x)), range(2, 100)))
+print(primes)
+# [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
 ```
 
 ### remove numbers from string

@@ -77,6 +77,7 @@ This github repo is a collection of amazing python one liners.
 * [octal to decimal](#octal-to-decimal)
 
 # P
+* [performance profiling](#performance-profiling)
 * [permutation](#permutation)
 * [prime numbers in a range](#prime-numbers-in-a-range)
 * [python zen](#python-zen)
@@ -525,6 +526,11 @@ list(tuple(map(int, input().split())) for r in range(int(input('enter the no of 
 # 3 4
 # 5 6
 # [(1, 2), (3, 4), (5, 6)]
+```
+
+### performance profiling
+```shell
+$ python -m cProfile foo.py
 ```
 
 ### permutation

@@ -1,6 +1,7 @@
 This github repo is a collection of amazing python one liners.
 
 # A
+* [alternate elements](#alternate-elements)
 * [anagram](#anagram)
 
 # B
@@ -115,6 +116,22 @@ This github repo is a collection of amazing python one liners.
 * [while loop](#while-loop)
 * [write to a file using print](#write-to-a-file-using-print)
 
+
+### alternate elements
+
+Elements from even index
+```python
+li = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(li[0::2])
+# [1, 3, 5, 7, 9]
+```
+
+Elements from odd index
+```python
+li = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(li[1::2])
+# [2, 4, 6, 8, 10]
+```
 
 ### anagram
 ```python

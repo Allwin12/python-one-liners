@@ -92,6 +92,7 @@ This github repo is a collection of amazing python one liners.
 * [repeat values in a list for n times](#repeat-values-in-a-list-for-n-time)
 * [replace words in a sentence](#replace-words-in-a-sentence)
 * [replace with regular expression](#replace-with-regular-expression)
+* [replace multiple spaces](#replace-multiple-spaces)
 * [rotate a list](#rotate-a-list)
 * [reverse a list](#reverse-a-list)
 
@@ -585,6 +586,13 @@ string.replace('good', 'bad')
 import re
 re.sub(r'[.+()@]', '', 'A(ll+wi)@n.')
 # 'Allwin'
+```
+
+### replace multiple spaces
+```python
+# replace-multiple-spaces
+s = 'string with  multiple    spaces and \n\n new lines'
+' '.join(s.split()) # 'string with multiple spaces and new lines'
 ```
 
 ### reverse a list

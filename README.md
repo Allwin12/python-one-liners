@@ -80,6 +80,7 @@ This github repo is a collection of amazing python one liners.
 # P
 * [performance profiling](#performance-profiling)
 * [permutation](#permutation)
+* [prefix sum](#prefix-sum)
 * [prime numbers in a range](#prime-numbers-in-a-range)
 * [python zen](#python-zen)
 
@@ -557,6 +558,15 @@ from itertools import permutations
 print([''.join(perm) for perm in permutations('abc')])
 
 # ['abc', 'acb', 'bac', 'bca', 'cab', 'cba']
+```
+
+### prefix sum
+```python
+import itertools
+prefix_sum = itertools.accumulate([1, 2, 3, 4, 5])
+print(list(prefix_sum))
+
+# [1, 3, 6, 10, 15]
 ```
 
 ### prime numbers in a range

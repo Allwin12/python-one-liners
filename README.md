@@ -65,9 +65,11 @@ This github repo is a collection of amazing python one liners.
 * [list comprehension](#list-comprehension)
 
 # M
+* [max value key](#max-value-key)
 * [merge two lists](#merge-two-lists)
 * [merge two dictionaries](#merge-two-dictionaries)
 * [merge two sets](#merge-two-sets)
+* [min value key](#min-value-key)
 * [most frequnet element in a list](#most-frequent-element-in-a-list)
 
 # N

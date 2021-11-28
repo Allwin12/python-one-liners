@@ -367,6 +367,14 @@ print("Hello, World!", file=open('file.txt', 'w'))
 print("umbrella".count('l'))
 ```
 
+### max value key
+```python
+d = {320: 1, 321: 0, 322: 3}
+max_value_key = max(d, key=d.get)
+
+# 322
+```
+
 ### merge two lists
 ```python
 list1.extend(list2)
@@ -390,6 +398,15 @@ dict1.update(dict2)
 set1.update(set2)
 # contents of set2 will be copied to the set1
 ```
+
+### min value key
+```python
+d = {320: 1, 321: 0, 322: 3}
+min_value_key = min(d, key=d.get)
+
+# 321
+```
+
 
 ### get timestamp
 ```python

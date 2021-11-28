@@ -1,5 +1,7 @@
 This github repo is a collection of amazing python one liners.
 
+[test](#/src/string/anagram)
+
 # A
 * [alternate elements](#alternate-elements)
 * [anagram](#anagram)

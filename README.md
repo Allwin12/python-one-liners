@@ -56,6 +56,7 @@ This github repo is a collection of amazing python one liners.
 
 # I
 * [if-else](#if-else)
+* [if-elif-else](#if-elif-else)
 * [infinite-while-loop](#infinite-while-loop)
 * [input a list of tuples](#input-a-list-of-tuples)
 
@@ -337,6 +338,11 @@ dict_numbers = {x:x*x for x in range(0,5) }
 ### if else
 ```python
 print("even") if 4%2==0 else print("odd")
+```
+
+### if elif else
+```python
+grade = "A" if score >= 80 else "B" if score >= 60 else "C"
 ```
 
 ### infinite while loop
